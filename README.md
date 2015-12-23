@@ -8,6 +8,22 @@ This avoids [problems](https://github.com/docker/compose/issues/374) when using 
 
 Just use the `bennetimo/ghost-wait-mysql` image in place of `ghost`
 
+### Configuration
+
+By default the script will try to reach mysql every 2 seconds for 20 seconds. You can set environment variables to tweak this:
+
+`ENV MYSQL_HOST=mysql`
+> Mysql host to try to connect to
+
+`ENV MYSQL_PORT=3306`
+> Mysql host post`
+
+`ENV WAIT_LOOPS=10`
+> Max number of connection attempts
+
+`ENV WAIT_SLEEP=2`
+> Sleep time between each try
+
 ### Credits
 
 The script used in this container is modified from a [comment](https://github.com/docker/docker/issues/7445#issuecomment-101523662) by artem-sidorenko.
