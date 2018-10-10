@@ -1,4 +1,4 @@
-FROM ghost
+FROM ghost:0.7.3
 MAINTAINER Tim Bennett
 
 # Setup nc
