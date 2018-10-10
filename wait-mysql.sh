@@ -18,4 +18,4 @@ done
 
 echo "mysql is now available...continuing..."
 
-exec /entrypoint.sh "$@"
+exec docker-entrypoint.sh "$@"

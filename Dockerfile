@@ -1,4 +1,4 @@
-FROM ghost:0.7.3
+FROM ghost:1.25
 MAINTAINER Tim Bennett
 
 # Setup nc
@@ -24,4 +24,4 @@ ENV WAIT_SLEEP=2
 
 ENTRYPOINT ["/wait-mysql.sh"]
 
-CMD ["npm", "start"]
+CMD ["node", "current/index.js"]
