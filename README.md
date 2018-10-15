@@ -8,6 +8,14 @@ This avoids [problems](https://github.com/docker/compose/issues/374) when using 
 
 Just use the `bennetimo/ghost-wait-mysql` [image](https://hub.docker.com/r/bennetimo/ghost-wait-mysql/) in place of `ghost`
 
+The version number of 'bennetimo/ghost-wait-mysql' matches the version of `ghost`
+
+These are the current published tags:
+
+ * 2.2 => for ghost 2.x
+ * 1.25 => for ghost 1.x
+ * 0.7.3 => for ghost 0.x
+
 ### Configuration
 
 By default the script will try to reach mysql every 2 seconds for 20 seconds. You can set environment variables to tweak this:
