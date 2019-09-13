@@ -12,7 +12,8 @@ The version number of 'bennetimo/ghost-wait-mysql' matches the version of `ghost
 
 These are the current published tags:
 
- * 2.2 => for ghost 2.x
+ * 2.3 => for ghost 2.31
+ * 2.2 => for ghost 2.2
  * 1.25 => for ghost 1.x
  * 0.7.3 => for ghost 0.x
 
